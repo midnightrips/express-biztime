@@ -14,6 +14,6 @@ let db = new Client({
     connectionString: DB_URI
 });
 
-db.connnect();
+db.connect();
 
 module.exports = db;
